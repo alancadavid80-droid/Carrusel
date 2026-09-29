@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Guía informativa para empezar en Brawl Stars: modos de juego, roles de brawlers y consejos básicos.">
+	<meta name="theme-color" content="#f8c928">
+	<title>Brawl Stars | Guía para jugar</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<nav class="navbar navbar-expand-lg container" aria-label="Navegación principal">
+			<a class="navbar-brand game-brand" href="#inicio" aria-label="Brawl Stars, inicio"><span class="brand-star"><i class="bi bi-star-fill" aria-hidden="true"></i></span><span>BRAWL<span class="brand-accent">GUIDE</span></span></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir navegación"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="mainNav">
+				<ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+					<li class="nav-item"><a class="nav-link" href="#modos">Modos</a></li>
+					<li class="nav-item"><a class="nav-link" href="#brawlers">Brawlers</a></li>
+					<li class="nav-item"><a class="nav-link" href="#consejos">Consejos</a></li>
+					<li class="nav-item"><a class="nav-link nav-official" href="https://supercell.com/en/games/brawlstars/" target="_blank" rel="noopener noreferrer">Sitio oficial <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section id="inicio" class="hero" aria-label="Introducción a Brawl Stars">
+			<div id="guideCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#guideCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Presentación del juego"></button>
+					<button type="button" data-bs-target="#guideCarousel" data-bs-slide-to="1" aria-label="Modos de juego"></button>
+					<button type="button" data-bs-target="#guideCarousel" data-bs-slide-to="2" aria-label="Juego en equipo"></button>
+				</div>
+				<div class="carousel-inner">
+					<article class="carousel-item active">
+						<img class="hero-image" src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=2000&q=88" alt="Mandos y equipo de videojuegos en una mesa" fetchpriority="high">
+						<div class="hero-overlay"></div>
+						<div class="container hero-content"><span class="hero-kicker"><span class="kicker-star">✦</span> GUÍA DE JUEGO · PARA PRINCIPIANTES</span><h1>BRAWL<br><span>STARS</span></h1><p>Entra a la arena: aprende los modos, conoce los roles y encuentra tu forma de jugar en equipo.</p><a class="hero-link" href="#modos">Explorar la guía <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a></div>
+						<span class="slide-stamp">01 <i> / 03</i></span>
+					</article>
+					<article class="carousel-item">
+						<img class="hero-image" src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=2000&q=88" alt="Competencia de videojuegos con público y pantallas" loading="lazy">
+						<div class="hero-overlay overlay-cyan"></div>
+						<div class="container hero-content"><span class="hero-kicker"><span class="kicker-star">✦</span> ELIGE TU OBJETIVO</span><h2>CADA MODO<br><span>CAMBIA TODO</span></h2><p>¿Gemas, goles o supervivencia? Entender la misión es el primer paso para ayudar al equipo.</p><a class="hero-link" href="#modos">Conocer los modos <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a></div>
+						<span class="slide-stamp">02 <i> / 03</i></span>
+					</article>
+					<article class="carousel-item">
+						<img class="hero-image" src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=2000&q=88" alt="Persona jugando en una consola" loading="lazy">
+						<div class="hero-overlay overlay-red"></div>
+						<div class="container hero-content"><span class="hero-kicker"><span class="kicker-star">✦</span> JUEGA CON CABEZA</span><h2>EL EQUIPO<br><span>HACE LA JUGADA</span></h2><p>Conoce las fortalezas de cada brawler, cuida tu posición y juega por el objetivo.</p><a class="hero-link" href="#consejos">Ver consejos <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a></div>
+						<span class="slide-stamp">03 <i> / 03</i></span>
+					</article>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#guideCarousel" data-bs-slide="prev" aria-label="Diapositiva anterior"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
+				<button class="carousel-control-next" type="button" data-bs-target="#guideCarousel" data-bs-slide="next" aria-label="Diapositiva siguiente"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
+			</div>
+			<div class="hero-note"><span class="note-mark">!</span><span>Información general. Los modos y características pueden cambiar con las actualizaciones.</span></div>
+		</section>
+
+		<section class="intro-band" aria-label="Resumen del juego"><div class="container intro-inner"><span class="intro-label">EN POCAS PALABRAS</span><p><strong>Brawl Stars</strong> es un juego de acción multijugador de Supercell. Elige un brawler, forma equipo y compite en partidas rápidas con objetivos distintos.</p><a href="https://supercell.com/en/games/brawlstars/" target="_blank" rel="noopener noreferrer" aria-label="Conoce Brawl Stars en el sitio oficial">Saber más <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></section>
+
+		<section id="modos" class="modes-section section-space">
+			<div class="container">
+				<div class="section-topline"><span class="section-number">01 / MODOS</span><span class="section-rule"></span><span class="section-side-note">OBJETIVOS DISTINTOS, MISMA ARENA</span></div>
+				<div class="section-heading"><h2>¿CÓMO SE<br>GANA <span>LA PARTIDA?</span></h2><p>En cada modo cambia la condición de victoria. No siempre gana quien consigue más eliminaciones: juega alrededor del objetivo.</p></div>
+				<div class="mode-grid">
+					<a class="mode-card mode-yellow" href="detalle.html?tema=atrapagemas"><span class="mode-top"><span class="mode-symbol"><i class="bi bi-gem" aria-hidden="true"></i></span><span class="mode-index">A</span></span><h3>Atrapagemas</h3><p>Reúne gemas y protege la ventaja del equipo hasta que termine la cuenta regresiva.</p><span class="mode-tip"><i class="bi bi-lightbulb" aria-hidden="true"></i> Controla el centro</span></a>
+					<a class="mode-card mode-coral" href="detalle.html?tema=balon-brawl"><span class="mode-top"><span class="mode-symbol"><i class="bi bi-dribbble" aria-hidden="true"></i></span><span class="mode-index">B</span></span><h3>Balón Brawl</h3><p>Lleva el balón hasta la portería rival. Un pase oportuno puede abrir el camino al gol.</p><span class="mode-tip"><i class="bi bi-lightbulb" aria-hidden="true"></i> Busca espacios</span></a>
+					<a class="mode-card mode-blue" href="detalle.html?tema=noqueo"><span class="mode-top"><span class="mode-symbol"><i class="bi bi-crosshair" aria-hidden="true"></i></span><span class="mode-index">C</span></span><h3>Noqueo</h3><p>Elimina al equipo rival en rondas. Si caes, no reapareces durante esa ronda.</p><span class="mode-tip"><i class="bi bi-lightbulb" aria-hidden="true"></i> Juega con paciencia</span></a>
+					<a class="mode-card mode-green" href="detalle.html?tema=supervivencia"><span class="mode-top"><span class="mode-symbol"><i class="bi bi-shield-shaded" aria-hidden="true"></i></span><span class="mode-index">D</span></span><h3>Supervivencia</h3><p>Sobrevive en solitario o en dúo mientras la zona segura se hace más pequeña.</p><span class="mode-tip"><i class="bi bi-lightbulb" aria-hidden="true"></i> Vigila el mapa</span></a>
+				</div>
+				<p class="mode-disclaimer">Los nombres, reglas y disponibilidad de modos pueden variar según la rotación del juego.</p>
+			</div>
+		</section>
+
+		<section id="brawlers" class="roles-section">
+			<div class="container roles-layout">
+				<div class="roles-copy"><div class="section-topline"><span class="section-number">02 / BRAWLERS</span><span class="section-rule"></span></div><h2>NO HAY UN<br>MEJOR BRAWLER.<br>HAY UNO <span>PARA TI.</span></h2><p>Cada personaje tiene un ataque y una súper propios. Estas clases son una orientación: el papel real depende del mapa, el modo y la composición del equipo.</p><a class="text-cta" href="https://supercell.com/en/games/brawlstars/" target="_blank" rel="noopener noreferrer">Explora el juego oficial <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div>
+				<div class="role-list">
+					<a class="role-row" href="detalle.html?tema=rol-dano"><span class="role-icon role-red"><i class="bi bi-lightning-charge-fill" aria-hidden="true"></i></span><div><h3>Daño</h3><p>Presiona al rival y aprovecha oportunidades para asegurar eliminaciones.</p></div><span class="role-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+					<a class="role-row" href="detalle.html?tema=rol-control"><span class="role-icon role-blue"><i class="bi bi-bullseye" aria-hidden="true"></i></span><div><h3>Control</h3><p>Limita el movimiento rival y ayuda a mantener zonas importantes.</p></div><span class="role-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+					<a class="role-row" href="detalle.html?tema=rol-tanque"><span class="role-icon role-green"><i class="bi bi-shield-fill" aria-hidden="true"></i></span><div><h3>Tanque</h3><p>Aguanta presión y puede abrir espacio para que el equipo avance.</p></div><span class="role-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+					<a class="role-row" href="detalle.html?tema=rol-apoyo"><span class="role-icon role-purple"><i class="bi bi-heart-pulse-fill" aria-hidden="true"></i></span><div><h3>Apoyo</h3><p>Ayuda al equipo con curación, mejoras u otras utilidades.</p></div><span class="role-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+				</div>
+			</div>
+		</section>
+
+		<section id="consejos" class="tips-section section-space">
+			<div class="container">
+				<div class="section-topline"><span class="section-number">03 / PRIMERAS PARTIDAS</span><span class="section-rule"></span><span class="section-side-note">PEQUEÑOS HÁBITOS, MEJORES DECISIONES</span></div>
+				<div class="tips-heading"><h2>ANTES DE<br><span>LANZARTE.</span></h2><p>Una guía rápida para aprender sin perder de vista lo que importa en la arena.</p></div>
+				<div class="tips-list">
+					<a href="detalle.html?tema=consejo-objetivo"><span class="tip-number">01</span><div><h3>Lee el objetivo</h3><p>Fíjate en la condición de victoria del modo antes de perseguir rivales.</p></div><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+					<a href="detalle.html?tema=consejo-municion"><span class="tip-number">02</span><div><h3>Guarda munición</h3><p>Los ataques se recargan; evita disparar sin apuntar cuando el rival está lejos.</p></div><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+					<a href="detalle.html?tema=consejo-cobertura"><span class="tip-number">03</span><div><h3>Usa cobertura</h3><p>Los muros y arbustos cambian cómo te mueves y cuándo te ven.</p></div><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+					<a href="detalle.html?tema=consejo-equipo"><span class="tip-number">04</span><div><h3>Juega con tu equipo</h3><p>Separarse demasiado puede dejar objetivos y compañeros sin defender.</p></div><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="official-band"><div class="container official-inner"><span class="official-emblem"><i class="bi bi-controller" aria-hidden="true"></i></span><div><span class="section-number">SIGUE EXPLORANDO</span><h2>Las novedades, en su fuente oficial.</h2><p>Consulta noticias, detalles del juego y enlaces de descarga publicados por Supercell.</p></div><a class="official-button" href="https://supercell.com/en/games/brawlstars/" target="_blank" rel="noopener noreferrer">Ir a Supercell <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></section>
+	</main>
+
+	<footer class="site-footer"><div class="container footer-inner"><a class="navbar-brand game-brand" href="#inicio"><span class="brand-star"><i class="bi bi-star-fill" aria-hidden="true"></i></span><span>BRAWL<span class="brand-accent">GUIDE</span></span></a><p>Guía informativa no oficial, creada por fans.</p><small>Brawl Stars y sus marcas pertenecen a Supercell. Esta página no está afiliada ni respaldada por Supercell.</small></div></footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

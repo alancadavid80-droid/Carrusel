@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Más información sobre Brawl Stars.">
+    <meta name="theme-color" content="#f8c928">
+    <title>Detalle | Brawl Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="detail-body">
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegación principal">
+            <a class="navbar-brand game-brand" href="index.html#inicio" aria-label="Brawl Guide, inicio"><span class="brand-star"><i class="bi bi-star-fill" aria-hidden="true"></i></span><span>BRAWL<span class="brand-accent">GUIDE</span></span></a>
+            <a class="detail-back" id="backToGuide" href="index.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> Volver a la guía</a>
+        </nav>
+    </header>
+
+    <main id="detailPage" class="detail-page" data-tone="yellow">
+        <section class="detail-hero">
+            <div class="container detail-hero-inner">
+                <div class="detail-copy">
+                    <a class="detail-breadcrumb" id="detailBreadcrumb" href="index.html#modos"><i class="bi bi-arrow-left" aria-hidden="true"></i> Volver a <span id="detailCategoryBack">la sección</span></a>
+                    <span class="detail-kicker" id="detailCategory">GUÍA DE JUEGO</span>
+                    <h1 id="detailTitle">Cargando...</h1>
+                    <p id="detailLead"></p>
+                </div>
+                <div class="detail-symbol" aria-hidden="true"><i id="detailIcon" class="bi bi-star-fill"></i><span>INFO</span></div>
+            </div>
+            <span class="detail-background-mark" aria-hidden="true">✦</span>
+        </section>
+
+        <section class="detail-content container">
+            <div class="detail-main-copy">
+                <span class="detail-section-label">LO ESENCIAL</span>
+                <h2 id="objectiveTitle">¿Cuál es el objetivo?</h2>
+                <p id="detailObjective"></p>
+                <div class="detail-steps-block">
+                    <span class="detail-section-label">CÓMO APLICARLO</span>
+                    <ul id="detailSteps" class="detail-steps"></ul>
+                </div>
+            </div>
+            <aside class="detail-tip-panel">
+                <span class="detail-tip-icon"><i class="bi bi-lightbulb-fill" aria-hidden="true"></i></span>
+                <span class="detail-section-label">IDEA PARA RECORDAR</span>
+                <p id="detailTakeaway"></p>
+            </aside>
+        </section>
+
+        <section class="related-section container">
+            <div class="related-heading"><span class="detail-section-label">SIGUE EXPLORANDO</span><a id="detailMoreLink" href="index.html#modos">Ver toda la sección <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div>
+            <nav id="relatedLinks" class="related-links" aria-label="Más temas relacionados"></nav>
+        </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><a class="navbar-brand game-brand" href="index.html#inicio"><span class="brand-star"><i class="bi bi-star-fill" aria-hidden="true"></i></span><span>BRAWL<span class="brand-accent">GUIDE</span></span></a><p>Guía informativa no oficial, creada por fans.</p><small>Brawl Stars y sus marcas pertenecen a Supercell. Esta página no está afiliada ni respaldada por Supercell.</small></div></footer>
+    <script src="detalle.js"></script>
+</body>
+</html>
